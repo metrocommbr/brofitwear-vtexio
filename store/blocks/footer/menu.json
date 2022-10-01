@@ -8,10 +8,13 @@
       "menu-item#lancamentos",
       "menu-item#basicos",
       "menu-item#categorias",
-      "menu-item#conjuntos",
       "menu-item#kits",
       "menu-item#off",
-      "menu-item#sobre-nos"
+      "menu-item#conjuntos",
+      "menu-item#sobre-nos",
+      "menu-item#politica-de-privacidade",
+      "menu-item#ouvidoria",
+      "menu-item#lgpd"
     ]
   },
   "menu-item#home": {
@@ -70,7 +73,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Categorias",
-        "text": "Básicos"
+        "text": "Categorias"
       }
     }
   },
@@ -100,7 +103,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Conjuntos",
-        "text": "Conjuntos"
+        "text": "Kits"
       }
     }
   },
@@ -115,7 +118,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Conjuntos",
-        "text": "Conjuntos"
+        "text": "Off"
       }
     }
   },
@@ -131,6 +134,51 @@
         "noFollow": false,
         "tagTitle": "Sobre Nós",
         "text": "Sobre Nós"
+      }
+    }
+  },
+  "menu-item#politica-de-privacidade": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Política de privacidade",
+        "text": "Política de privacidade"
+      }
+    }
+  },
+  "menu-item#ouvidoria": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ouvidoria",
+        "text": "Ouvidoria"
+      }
+    }
+  },
+  "menu-item#lgpd": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "lgpd",
+        "text": "lgpd"
       }
     }
   },

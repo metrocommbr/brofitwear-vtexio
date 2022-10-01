@@ -20,13 +20,13 @@
     },
     "rich-text#developer-by": {
         "props": {
-            "text": "desenvolvido por",
+            "text": "Desenvolvido por",
             "blockClass": "developer-by"
         }
     },
     "rich-text#developer-by-negrito": {
         "props": {
-            "text": "NOBLINDD2",
+            "text": "NOBLINDDZ",
             "blockClass": "developer-by-negrito"
         }
     }

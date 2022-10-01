@@ -74,8 +74,6 @@
     margin: 0;
 }
 
-.flexRow--payment-methods {}
-
 .flexColChild--footer-col-middle-three {
     padding: 0;
 }
@@ -86,4 +84,115 @@
 
 .flexCol--footer-line-one :global(.vtex-rich-text-0-x-paragraph--footer-row-one) {
     margin: 0;
+}
+
+
+.flexColChild--footer-col-middle-one .flexCol{
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.flexRowContent--redes-sociais{
+  display: flex;
+  gap: 15px;
+}
+.flexRow--credits-footer{
+  margin-bottom: 20px;
+}
+
+.flexCol--newsletter{
+  padding-left: 26px;
+  background-color: #f4f4f4;
+}
+
+
+@media(min-width: 1024px){
+  .flexRowContent--footer-line-one{
+    flex-direction: row;
+    padding-top: 50px;
+    justify-content: flex-start;
+    gap: 120px;
+  }
+  .flexCol--footer-col-one{
+    padding: 0px;
+  }
+
+  .flexColChild--footer-line-one :global(.vtex-menu-2-x-menuItem):first-child{
+    padding-top: 0px;
+  }
+  .flexRow--footer-line-one{
+
+    background-color: #f4f4f4;
+  }
+
+  .flexRow--footer-line-one :global(.vtex-store-components-3-x-container){
+    width: 100%;
+    max-width: 1240px;
+    padding: 0;
+    margin: 0 auto;
+
+  }
+  .flexRowContent--footer-line-one .stretchChildrenWidth{
+    width: 100% !important;
+    max-width: max-content;
+  }
+
+  .flexRowContent--footer-line-one .stretchChildrenWidth:last-child{
+    width: fit-content !important;
+  }
+
+  .flexColChild--footer-line-one{
+    height: auto !important;
+  }
+
+  .flexRow--footer-line-for{
+    background-color: #fff;
+  }
+
+  .flexRow--footer-line-for :global(.vtex-store-components-3-x-container){
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 30px 0px;
+  }
+
+  .flexRowContent--footer-line-for{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flexRowContent--footer-line-for .stretchChildrenWidth{
+    width: 100% !important;
+    max-width: max-content;
+  }
+  .flexCol--footer-col-middle-three{
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+  }
+
+  .flexColChild--footer-col-one :global(.vtex-store-components-3-x-logoContainer){
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .flexCol--footer-col-middle-one{
+    padding: 0;
+  }
+  .flexCol--footer-col-middle-one{
+    gap: 40px;
+    flex-direction: row;
+  }
+  .flexColChild--footer-col-middle-one .flexCol{
+    margin-bottom: 0px;
+  }
+
+  .flexRow--credits :global(.vtex-store-components-3-x-container){
+    width: 100%;
+    max-width: 1240px;
+    padding: 0;
+    margin:  0 auto;
+  }
+  .flexRowContent--credits{
+    margin-bottom: 60px;
+  }
 }

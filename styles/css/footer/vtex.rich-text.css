@@ -1,9 +1,132 @@
 .paragraph--developer-by-negrito {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .wrapper--developer-by-negrito {
+  padding: 0;
+  margin: 0;
+}
+.paragraph--title-newsletter {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 26px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #0d0b0f;
+  margin-top: 30px;
+}
+.paragraph--subtitle-newsletter{
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  line-height: 20px;
+  text-align: left;
+  color: #a3a3a3;
+  margin-top: 0px;
+}
+.paragraph--footer-row-4 {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #000;
+}
+.paragraph--footer {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  line-height: 18px;
+  text-align: left;
+  color: #c3c3c3;
+}
+
+/* workline */
+
+.wrapper--footer-row-one {
+  display: flex;
+  width: 100%;
+  padding: 0 26px;
+  color: #0d0b0f;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Kanit', sans-serif;
+}
+
+.wrapper--footer-row-4 {
+  display: flex;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.developer-by-negrito,
+.paragraph--developer-by {
+  text-align: left;
+  font: normal normal normal 11px/18px Kanit;
+  font-weight: 600;
+  letter-spacing: 0.66px;
+  color: #c3c3c3;
+}
+
+.paragraph--developer-by {
+  margin: 0;
+}
+
+.container--footer {
+  justify-content: center;
+  padding: 10px 26px;
+  align-items: center;
+  border-top: 1px solid #c3c3c3;
+  margin-top: 30px;
+}
+.paragraph--developer-by-negrito {
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  line-height: 18px;
+  text-align: left;
+  color: #0d0b0f;
+  margin-left: 10px;
+}
+
+
+@media(min-width: 1024px){
+  .paragraph--title-newsletter{
+    margin-top: -5px;
+    margin-bottom: 10px;
+  }
+
+  .paragraph--subtitle-newsletter{
+    max-width: 485px;
+  }
+  .paragraph--footer-row-4{
+    width: max-content;
+  }
+  .container--footer{
+    margin-top: 0px;
     padding: 0;
+    border: none;
+    justify-content: flex-start;
+  }
+  .paragraph--footer{
     margin: 0;
+  }
+  .paragraph--develop-by-desk{
+    text-align: left;
+    font: normal normal normal 11px/18px Kanit;
+    font-weight: 600;
+    letter-spacing: 0.66px;
+    color: #c3c3c3;
+  }
+
+  .strong--develop-by-desk{
+    color: #000;
+    font-weight: 700;
+  }
+  .container--develop-by-desk{
+    justify-content: flex-end;
+  }
 }

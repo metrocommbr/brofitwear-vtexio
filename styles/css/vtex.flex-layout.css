@@ -171,7 +171,7 @@
 }
 
 .flexRowContent--footer-line-one {
-    background: seagreen;
+    background: #f4f4f4;
     display: flex;
     flex-flow: column;
 }
@@ -186,15 +186,6 @@
 
 .flexRowContent--main-header .vtex-menu-2-x-styledLink {
     color: orange;
-}
-
-.flexRowContent--credits {
-    width: 1161px;
-    margin: 0 auto;
-}
-
-.flexRowContent--footer-line-for {
-    background: forestgreen;
 }
 
 .flexColChild--footer-col-one {
@@ -230,16 +221,4 @@
 .flexRowContent--footer-line-for {
     justify-content: center;
     align-items: center;
-}
-
-.flexRowContent--footer-line-for :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-    width: 20% !important;
-}
-
-.flexRowContent--footer-line-for :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-    width: 20% !important;
-}
-
-.flexRowContent--footer-line-for :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-    width: 20% !important;
 }

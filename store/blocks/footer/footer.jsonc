@@ -24,12 +24,18 @@
     "flex-layout.row#footer-3-desktop": {
         "children": [
           "rich-text#footer",
-          "rich-text#developer-by",
-          "rich-text#developer-by-negrito"
+          "rich-text#develop-by-desk"
         ],
         "props": {
             "blockClass": "credits"
         }
+    },
+    "rich-text#develop-by-desk": {
+      "props": {
+        "blockClass": ["develop-by-desk"],
+        "text": "Desenvolvido por **NOBLINDDZ**"
+
+      }
     },
     //meis de pagamento, rede sociais, selos
     "flex-layout.row#footer-line-4-desktop": {
@@ -53,14 +59,14 @@
     },
     "flex-layout.col#icon-payments-mobile": {
       "children": [
-        "image#payments-visa",
         "image#payments-master",
+        "image#payments-visa",
         "image#payments-boleto",
         "image#payments-pix"
       ]
     },
     "flex-layout.col#footer-col-2-middle": {
-        "children": ["rich-text#selos-title",
+        "children": [
         "image#selos-pci",
         "image#selos-moss",
         "image#selos-lets"],
@@ -70,7 +76,7 @@
     },
     "flex-layout.col#footer-col-3-middle": {
         "children": ["rich-text#redes-sociais-title",
-        "social-networks"],
+        "flex-layout.row#redes-sociais"],
         "props": {
             "blockClass": "footer-col-middle-three"
         }
@@ -94,7 +100,7 @@
         }
     },
     "flex-layout.col#footer-col-4": {
-        "children": ["newsletter"],
+        "children": ["flex-layout.row#row-newsletter"],
         "props": {
             "blockClass": "footer-line-one"
         }
@@ -192,7 +198,7 @@
         "props": {
           "title": "Logo",
           "href": "/",
-          "url": "https://brofitwear.vteximg.com.br/arquivos/brofitwear-logo-footer.svg",
+          "url": "/arquivos/logo-footer.png",
           "width": "55",
           "height": "73"
         }

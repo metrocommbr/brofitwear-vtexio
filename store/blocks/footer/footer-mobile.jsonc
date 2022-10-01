@@ -18,8 +18,7 @@
     },
     "flex-layout.row#footer-line-2": {
       "children": [
-        "flex-layout.col#footer-col-menu-mobile",
-        "flex-layout.col#footer-col-contacts-mobile"
+        "flex-layout.col#footer-col-menu-mobile"
       ],
       "props": {
           "blockClass": "payment-methods",
@@ -31,6 +30,7 @@
     "flex-layout.row#footer-line-3": {
       "children": [
         "flex-layout.col#footer-col-payments",
+        "flex-layout.col#footer-col-contacts-mobile",
         "rich-text#footer-cnpj-mobile",
         "flex-layout.row#footer-credits-row"
       ],
@@ -40,17 +40,28 @@
           "paddingBottom": 4
       }
     },
+    "flex-layout.row#footer-line-4": {
+      "children": [
+
+      ],
+      "props": {
+        "blockClass": [
+
+        ]
+      }
+    },
     "flex-layout.col#footer-col-payments": {
       "children": [
         "rich-text#footer-row-4-payments",
-        "flex-layout.col#icon-payments-mobile"
+        "flex-layout.col#icon-payments-mobile",
+        "flex-layout.col#footer-col-2-middle-mobile"
       ],
       "props": {
           "blockClass": "footer-col-middle-one"
       }
     },
     "flex-layout.col#footer-col-menu-mobile": {
-      "children": ["vtex.menu@2.x:menu#Products"],
+      "children": ["vtex.menu@2.x:menu#Products", "flex-layout.row#row-newsletter"],
       "props": {
           "blockClass": "footer-line-one"
       }
@@ -69,7 +80,7 @@
     "flex-layout.col#footer-line-social": {
       "children": [
         "rich-text#redes-sociais-title",
-        "social-networks"
+        "flex-layout.row#redes-sociais"
       ],
       "props": {
           "blockClass": "footer-col-middle-three"
@@ -113,10 +124,11 @@
       }
     },
     "flex-layout.col#footer-col-2-middle-mobile": {
-      "children": ["rich-text#selos-title",
-      "image#selos-pci",
-      "image#selos-moss",
-      "image#selos-lets"],
+      "children": [
+        "image#selos-lets",
+        "image#selos-pci",
+        "image#selos-moss"
+      ],
       "props": {
           "blockClass": "footer-col-middle-two-mobile"
       }
@@ -124,7 +136,7 @@
     "flex-layout.col#mobile-social-networks": {
       "children": [
         "rich-text#social-networks-row",
-        "social-networks"
+        "flex-layout.row#redes-sociais"
       ],
       "props": {
         "blockClass": "social-networks-row"

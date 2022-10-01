@@ -1,23 +1,42 @@
 {
-    "social-networks": {
-        "props": {
-            "socialNetworks": [{
-                    "name": "Facebook",
-                    "url": "https://www.facebook.com/vtexonline/"
-                },
-                {
-                    "name": "Instagram",
-                    "url": "https://www.instagram.com/vtextruecloud/"
-                },
-                {
-                    "name": "Twitter",
-                    "url": "https://twitter.com/vtexonline"
-                },
-                {
-                    "name": "Youtube",
-                    "url": "https://www.youtube.com/user/VTEXTV"
-                }
-            ]
-        }
+   "flex-layout.row#redes-sociais": {
+     "children": [
+      "image#icon-instagram",
+      "image#icon-facebook",
+      "image#icon-tiktok"
+     ],
+     "props": {
+       "blockClass": ["redes-sociais"]
+     }
+   },
+   "image#icon-instagram": {
+    "props": {
+        "src": "/arquivos/logo-instagram.png",
+        "maxHeight": "",
+        "maxWidth": "",
+        "height": 20,
+        "width": 20,
+        "blockClass": "icon-redes-sociais"
     }
+},
+"image#icon-facebook": {
+  "props": {
+      "src": "/arquivos/logo-facebook.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "height": 20,
+      "width": 20,
+      "blockClass": "icon-redes-sociais"
+  }
+},
+"image#icon-tiktok": {
+  "props": {
+      "src": "/arquivos/logo-tiktok.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "height": 20,
+      "width": 20,
+      "blockClass": "icon-redes-sociais"
+  }
+}
 }

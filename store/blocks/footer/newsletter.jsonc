@@ -1,0 +1,65 @@
+{
+  "flex-layout.row#row-newsletter": {
+    "children": [
+      "flex-layout.col#newsletter"
+    ],
+    "props": {
+      "blockClass": ["newsletter"]
+    }
+  },
+  "flex-layout.col#newsletter": {
+    "children": [
+      "rich-text#title-newsletter",
+      "rich-text#sub-title-newsletter",
+      "newsletter-form#newsletter"
+    ],
+    "props": {
+      "blockClass": ["newsletter"]
+    }
+  },
+
+"rich-text#title-newsletter": {
+  "props": {
+    "blockClass": ["title-newsletter"],
+    "text": "newsletter"
+
+  }
+},
+"rich-text#sub-title-newsletter": {
+  "props": {
+    "blockClass": ["subtitle-newsletter"],
+    "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia"
+
+  }
+},
+
+"newsletter-form#newsletter": {
+  "children": [
+    "newsletter-input-name#newsletter",
+    "newsletter-input-email#newsletter",
+    "newsletter-submit#newsletter"
+  ],
+  "props": {
+    "blockClass": "form-newsletter"
+  }
+},
+"newsletter-input-name#newsletter":{
+  "props": {
+    "placeholderText": "Nome completo"
+  }
+
+},
+
+"newsletter-input-email#newsletter":{
+  "props":{
+    "placeholderText": "E-mail"
+  }
+},
+
+"newsletter-submit#newsletter":{
+  "props":{
+    "submitButtonLabel": "Enviar"
+  }
+}
+
+}
