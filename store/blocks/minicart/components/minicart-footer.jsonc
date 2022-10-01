@@ -1,0 +1,33 @@
+{
+  "flex-layout.row#minicart-footer": {
+    "props": {
+      "blockClass": "minicart-footer"
+    },
+    "children": ["flex-layout.col#minicart-footer"]
+  },
+  "flex-layout.col#minicart-footer": {
+    "children": [
+      "minicart-summary",
+      "drawer-close-button#close-minicart",
+      "minicart-checkout-button"
+    ]
+  },
+  "drawer-close-button#close-minicart": {
+    "props": {
+      "text": "Continuar Comprando",
+      "blockClass":"continue-buy"
+    }
+  },
+  "flex-layout.row#minicart-footer-empty":{
+    "props":{
+      "blockClass":"minicart-footer-empty"
+    },
+    "children":["flex-layout.col#minicart-footer-empty"]
+  },
+  "flex-layout.col#minicart-footer-empty": {
+    "children": [
+      "flex-layout.row#footer-empty-summer",
+      "minicart-checkout-button"
+    ]
+  }
+}

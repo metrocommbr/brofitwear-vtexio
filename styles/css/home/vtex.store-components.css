@@ -1,0 +1,7 @@
+.imageElement--banner-content-desk{
+  display: flex;
+  margin: 80px auto;
+}
+.imageElement--banner-content-mob{
+  margin-top: 40px;
+}

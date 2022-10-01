@@ -1,0 +1,79 @@
+{
+  "flex-layout.row#container-highlights-home": {
+    "children": [
+      "flex-layout.col#col-highlights-home"
+    ],
+    "props": {
+      "blockClass": ["container-highlights-home"]
+    }
+  },
+  "flex-layout.col#col-highlights-home": {
+    "children": [
+      "rich-text#title-highlights-home",
+      "flex-layout.row#banners-highlights-home"
+    ],
+    "props": {
+      "blockClass": ["col-highlights-home"]
+    }
+  },
+  "rich-text#title-highlights-home": {
+    "props": {
+      "blockClass": [
+        "title-shelf",
+        "title-highlights-home"
+      ],
+      "text": "Destaques"
+    }
+  },
+  "flex-layout.row#banners-highlights-home": {
+    "children": [
+      "image#image-highlight-01",
+      "flex-layout.row#images-highlights"
+    ],
+    "props": {
+      "blockClass": ["banners-highlights-home"]
+    }
+  },
+  "image#image-highlight-01": {
+    "props": {
+      "blockClass": ["image-highlight-01","image-highlight"],
+      "src": "/arquivos/banner-destaques-1.png"
+    }
+  },
+
+  "flex-layout.row#images-highlights": {
+    "children": [
+      "image#image-highlight-02",
+      "image#image-highlight-03",
+      "image#image-highlight-04",
+      "image#image-highlight-05"
+    ],
+    "props": {
+      "blockClass": ["images-highlights"]
+    }
+  },
+  "image#image-highlight-02": {
+    "props": {
+      "blockClass": ["image-highlight-02","image-highlight"],
+      "src": "/arquivos/banner-destaques-2.png"
+    }
+  },
+  "image#image-highlight-03": {
+    "props": {
+      "blockClass": ["image-highlight-03","image-highlight"],
+      "src": "/arquivos/banner-destaques-3.png"
+    }
+  },
+  "image#image-highlight-04": {
+    "props": {
+      "blockClass": ["image-highlight-04","image-highlight"],
+      "src": "/arquivos/banner-destaques-4.png"
+    }
+  },
+  "image#image-highlight-05": {
+    "props": {
+      "blockClass": ["image-highlight-05","image-highlight"],
+      "src": "/arquivos/banner-destaques-5.png"
+    }
+  }
+}

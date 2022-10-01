@@ -1,0 +1,55 @@
+{
+  "rich-text#title-slider-categorys-home": {
+    "props": {
+      "blockClass": [
+        "title-shelf",
+        "title-slider-categorys-home"
+      ],
+      "text": "Categorias"
+    }
+  },
+
+  "list-context.image-list#categorys-home": {
+    "children": ["slider-layout#categorys-home"],
+    "props": {
+      "preload": true,
+      "height": 580,
+      "images": [
+        {
+          "image": "/arquivos/banner-slider-categorias-1.png",
+          "mobileImage": "/arquivos/banner-slider-categorias-1.png"
+        },
+        {
+          "image": "/arquivos/banner-slider-categorias-2.png",
+          "mobileImage": "/arquivos/banner-slider-categorias-2.png"
+        },
+        {
+          "image": "/arquivos/banner-slider-categorias-3.png",
+          "mobileImage": "/arquivos/banner-slider-categorias-3.png"
+        },
+        {
+          "image": "/arquivos/banner-slider-categorias-4.png",
+          "mobileImage": "/arquivos/banner-slider-categorias-4.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#categorys-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "categorys-home",
+      "centerMode":{
+        "desktop": "disabled",
+        "mobile": "to-the-left"
+      },
+
+      "centerModeSlidesGap": 7
+    }
+  }
+}

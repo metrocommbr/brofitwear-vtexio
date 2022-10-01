@@ -1,0 +1,17 @@
+{
+  "image#banner-content-desk": {
+    "props": {
+      "blockClass": ["banner-content-desk"],
+
+      "src": "/arquivos/banner-content-desktop.png"
+    }
+  },
+
+  "image#banner-content-mob": {
+    "props": {
+      "blockClass": ["banner-content-mob"],
+
+      "src": "/arquivos/banner-content-mobile.png"
+    }
+  }
+}

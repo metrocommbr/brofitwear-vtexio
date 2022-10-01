@@ -1,0 +1,42 @@
+{
+  "flex-layout.row#row-discount-home": {
+    "children": [
+      "rich-text#text-discount-home",
+      "newsletter-form#discount-home"
+    ],
+    "props": {
+      "blockClass": ["row-discount"]
+    }
+  },
+
+"rich-text#text-discount-home": {
+  "props": {
+    "blockClass": ["text-discount-home"],
+    "text": "Inscreva-se e Ganhe 10% de desconto na sua primeira compra"
+
+  }
+},
+
+"newsletter-form#discount-home": {
+  "children": [
+    "newsletter-input-email#discount-home",
+    "newsletter-submit#discount-home"
+  ],
+  "props": {
+    "blockClass": "form-discount-home"
+  }
+},
+
+"newsletter-input-email#discount-home":{
+  "props":{
+    "placeholderText": "E-mail"
+  }
+},
+
+"newsletter-submit#discount-home":{
+  "props":{
+    "submitButtonLabel": "Enviar"
+  }
+}
+
+}

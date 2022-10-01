@@ -1,0 +1,218 @@
+{
+    "footer": {
+        "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    },
+    "footer-layout.desktop": {
+        "children": [
+            "flex-layout.row#footer-line-one-desktop",
+            "flex-layout.row#footer-line-4-desktop",
+            "flex-layout.row#footer-3-desktop"
+        ]
+    },
+    "flex-layout.row#footer-line-one-desktop": {
+        "children": [
+            "flex-layout.col#footer-col-1",
+            "flex-layout.col#footer-col-2",
+            "flex-layout.col#footer-col-3",
+            "flex-layout.col#footer-col-4"
+        ],
+        "props": {
+            "blockClass": "footer-line-one"
+        }
+    },
+    //logo, telefones e email, menu, newslleter
+    "flex-layout.row#footer-3-desktop": {
+        "children": [
+          "rich-text#footer",
+          "rich-text#developer-by",
+          "rich-text#developer-by-negrito"
+        ],
+        "props": {
+            "blockClass": "credits"
+        }
+    },
+    //meis de pagamento, rede sociais, selos
+    "flex-layout.row#footer-line-4-desktop": {
+        "children": [
+            "flex-layout.col#footer-col-1-middle",
+            "flex-layout.col#footer-col-2-middle",
+            "flex-layout.col#footer-col-3-middle"
+        ],
+        "props": {
+            "blockClass": "footer-line-for"
+        }
+    },
+    "flex-layout.col#footer-col-1-middle": {
+        "children": [
+          "rich-text#footer-row-4-payments",
+          "flex-layout.col#icon-payments-mobile"
+        ],
+        "props": {
+            "blockClass": "footer-col-middle-one"
+        }
+    },
+    "flex-layout.col#icon-payments-mobile": {
+      "children": [
+        "image#payments-visa",
+        "image#payments-master",
+        "image#payments-boleto",
+        "image#payments-pix"
+      ]
+    },
+    "flex-layout.col#footer-col-2-middle": {
+        "children": ["rich-text#selos-title",
+        "image#selos-pci",
+        "image#selos-moss",
+        "image#selos-lets"],
+        "props": {
+            "blockClass": "footer-col-middle-two"
+        }
+    },
+    "flex-layout.col#footer-col-3-middle": {
+        "children": ["rich-text#redes-sociais-title",
+        "social-networks"],
+        "props": {
+            "blockClass": "footer-col-middle-three"
+        }
+    },
+    "flex-layout.col#footer-col-1": {
+        "children": ["logo#mobile-short"],
+        "props": {
+            "blockClass": "footer-col-one"
+        }
+    },
+    "flex-layout.col#footer-col-2": {
+        "children": [ "rich-text#footer-phone", "rich-text#footer-whats"],
+        "props": {
+            "blockClass": "footer-line-one"
+        }
+    },
+    "flex-layout.col#footer-col-3": {
+        "children": ["vtex.menu@2.x:menu#Products"],
+        "props": {
+            "blockClass": "footer-line-one"
+        }
+    },
+    "flex-layout.col#footer-col-4": {
+        "children": ["newsletter"],
+        "props": {
+            "blockClass": "footer-line-one"
+        }
+    },
+    "rich-text#footer-row-4-payments": {
+        "props": {
+            "text": "formas de pagamento",
+            "blockClass": "footer-row-4"
+        }
+    },
+    "image#payments-visa": {
+        "props": {
+            "src": "https://brofitwear.vteximg.com.br/arquivos/visa.png",
+            "height": 45,
+            "width": 68,
+            "blockClass": "storePrint"
+        }
+    },
+    "image#payments-master": {
+        "props": {
+            "src": "https://brofitwear.vteximg.com.br/arquivos/master.png",
+            "height": 45,
+            "width": 68,
+            "blockClass": "storePrint"
+        }
+    },
+    "image#payments-boleto": {
+        "props": {
+            "src": "https://brofitwear.vteximg.com.br/arquivos/boleto.png",
+            "height": 45,
+            "width": 68,
+            "blockClass": "storePrint"
+        }
+    },
+    "image#payments-pix": {
+        "props": {
+            "src": "https://brofitwear.vteximg.com.br/arquivos/pix.png",
+            "maxHeight": "",
+            "maxWidth": "",
+            "height": 45,
+            "width": 68,
+            "blockClass": "footer-selo-pix"
+        }
+    },
+    "image#selos-pci": {
+        "props": {
+            "src": "https://brofitwear.vteximg.com.br/arquivos/pci.png",
+            "maxHeight": "",
+            "maxWidth": "",
+            "height": 46,
+            "width": 69,
+            "blockClass": "footer-selo-pci"
+        }
+    },
+    "image#selos-moss": {
+        "props": {
+            "src": "https://brofitwear.vteximg.com.br/arquivos/moss.png",
+            "maxHeight": "",
+            "maxWidth": "",
+            "height": 46,
+            "width": 69,
+            "blockClass": "footer-selo-moss"
+        }
+    },
+    "image#selos-lets": {
+        "props": {
+            "src": "https://brofitwear.vteximg.com.br/arquivos/lets-encrypt.png",
+            "maxHeight": "",
+            "maxWidth": "",
+            "height": 46,
+            "width": 69,
+            "blockClass": "footer-selo-lets"
+        }
+    },
+
+    "rich-text#redes-sociais-title": {
+        "props": {
+            "text": "Redes Sociais",
+            "blockClass": "footer-row-4"
+        }
+    },
+    "rich-text#payments-title": {
+        "props": {
+            "text": "Redes Sociais",
+            "blockClass": "footer-row-4"
+        }
+    },
+    "rich-text#selos-title": {
+        "props": {
+            "text": "Redes Sociais",
+            "blockClass": "footer-row-4"
+        }
+    },
+    "logo#mobile-short": {
+        "props": {
+          "title": "Logo",
+          "href": "/",
+          "url": "https://brofitwear.vteximg.com.br/arquivos/brofitwear-logo-footer.svg",
+          "width": "55",
+          "height": "73"
+        }
+      },
+    "rich-text#footer-row-one": {
+        "props": {
+            "text": "m tca",
+            "blockClass": "footer-row-one"
+        }
+    },
+    "rich-text#footer-phone": {
+        "props": {
+            "text": "(21) 3410.5892 - RAMAL 209",
+            "blockClass": "footer-row-one"
+        }
+    },
+    "rich-text#footer-whats": {
+        "props": {
+            "text": "(21) 98129.0442 - WhatsApp",
+            "blockClass": "footer-row-one"
+        }
+    }
+}

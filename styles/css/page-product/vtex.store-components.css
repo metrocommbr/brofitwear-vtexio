@@ -1,0 +1,103 @@
+.skuSelectorName{
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #0D0B0F;
+  margin-bottom: 0px;
+}
+.frameAround{
+  border-width: 1px;
+  border-color: #0E0A0F;
+  border-radius: 0px;
+}
+
+
+.shippingContainer{
+  display: flex;
+  align-items: center;
+  position: relative;
+
+}
+.shippingContainer :global(.vtex-button){
+  max-width: fit-content;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.shippingContainer :global(.vtex-button__label){
+  font-size: 0px;
+}
+.shippingContainer :global(.vtex-button__label)::after{
+  content: "OK";
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 20px;
+  text-align: center;
+  color: #0d0b0f;
+  text-transform: uppercase;
+  display: block;
+}
+
+.shippingContainer :global(.vtex-address-form__postalCode){
+  padding-bottom: 0px;
+  width: 100%;
+  max-width: 180px;
+}
+
+.shippingContainer :global(.vtex-address-form-4-x-input),
+.shippingContainer :global(.vtex-input__suffix),
+.shippingContainer :global(.vtex-input-prefix__group){
+  background-color: #f4f4f4;
+  border: none;
+}
+
+.shippingContainer :global(.vtex-address-form__postalCode) :global(.vtex-input__label){
+    display: none;
+}
+.shippingContainer :global(.vtex-address-form__postalCode-forgottenURL){
+  position: absolute;
+  top: -1px;
+  right: 0;
+
+}
+.shippingContainer :global(.vtex-address-form__postalCode-forgottenURL) :first-child{
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 18px;
+  text-align: left;
+  color: #0d0b0f;
+
+}
+
+.shippingContainer :global(.vtex__icon-external-link){
+  display: none;
+}
+
+
+.productDescriptionTitle{
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  color: #0D0B0F;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.productDescriptionText{
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  line-height: 20px;
+  text-align: left;
+  color: #a3a3a3;
+}
+
+.skuSelectorInternalBox{
+  border: none;
+}
+
+
+.productDescriptionText .container{
+  padding: 0px;
+}

@@ -1,0 +1,24 @@
+{
+  "flex-layout.row#selling-price": {
+    "props": {
+      "blockClass": "page-product-price"
+    },
+    "children": [
+      "product-selling-price",
+      "product-installments"
+    ]
+  },
+
+  "flex-layout.row#list-price-savings": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 2,
+      "marginTop": 5
+    },
+    "children": [
+      "product-list-price"
+    ]
+  }
+}

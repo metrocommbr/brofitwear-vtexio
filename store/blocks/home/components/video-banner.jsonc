@@ -1,0 +1,25 @@
+{
+  "video#banner-main-desktop": {
+    "props": {
+      "width": "100%",
+      "height": "525",
+      "loop": true,
+      "autoPlay": true,
+      "muted": true,
+      "src": "https://files.mrsa.io/ecommerce/banners/mr/home/principal/morenatropicanaok.mp4",
+      "blockClass": "video-banner-main-desktop"
+    }
+  },
+  "video#banner-main-mobile": {
+    "props": {
+      "width": "100%",
+      "height": "auto",
+      "loop": true,
+      "autoPlay": true,
+      "muted": true,
+      "src": "https://files.mrsa.io/ecommerce/banners/mr/home/principal/morenatropicanaok.mp4",
+      "blockClass": "video-banner-main-mobile"
+    }
+  }
+
+}

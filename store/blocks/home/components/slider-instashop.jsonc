@@ -1,0 +1,55 @@
+{
+  "rich-text#title-slider-instashop-home": {
+    "props": {
+      "blockClass": [
+        "title-shelf",
+        "title-slider-instashop-home"
+      ],
+      "text": "instashop"
+    }
+  },
+
+  "list-context.image-list#instashop-home": {
+    "children": ["slider-layout#instashop-home"],
+    "props": {
+      "preload": true,
+      "height": 400,
+      "images": [
+        {
+          "image": "/arquivos/banner-instashop-1.png",
+          "mobileImage": "/arquivos/banner-instashop-1.png"
+        },
+        {
+          "image": "/arquivos/banner-instashop-2.png",
+          "mobileImage": "/arquivos/banner-instashop-2.png"
+        },
+        {
+          "image": "/arquivos/banner-instashop-3.png",
+          "mobileImage": "/arquivos/banner-instashop-3.png"
+        },
+        {
+          "image": "/arquivos/banner-instashop-4.png",
+          "mobileImage": "/arquivos/banner-instashop-4.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#instashop-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "instashop-home",
+      "centerMode":{
+        "desktop": "to-the-left",
+        "mobile": "to-the-left"
+      },
+
+      "centerModeSlidesGap": 5
+    }
+  }
+}

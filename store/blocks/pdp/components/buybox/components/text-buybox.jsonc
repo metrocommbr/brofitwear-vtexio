@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#text-buybox": {
+    "children": [
+      "rich-text#text-buybox"
+    ],
+    "props": {
+      "blockClass": ["text-buybox"]
+    }
+  },
+  "rich-text#text-buybox": {
+    "props": {
+      "blockClass": ["text-buybox"],
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
+
+    }
+  }
+}

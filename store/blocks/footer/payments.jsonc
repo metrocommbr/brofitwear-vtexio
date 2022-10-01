@@ -1,0 +1,22 @@
+{
+    "accepted-payment-methods": {
+        "props": {
+            "paymentMethods": ["MasterCard", "Visa", "Diners Club", "provu", "emprestimo"]
+        }
+    },
+    "info-card#home-new": {
+        "props": {
+          "id": "info-card-home",
+          "isFullModeStyle": false,
+          "textPosition": "left",
+          "imageUrl": "https://brofitwear.vteximg.com.br/arquivos/moss-image.jpg?v=637796165408700000",
+          "headline": "Clearance Sale",
+          "callToActionText": "DISCOVER",
+          "callToActionUrl": "/sale/d",
+          "blockClass": "info-card-home",
+          "textAlignment": "center"
+        }
+      }
+
+      
+}

@@ -1,0 +1,20 @@
+{
+  "search-banner#desktop": {
+    "title": "Banner Departamento",
+    "props": {
+      "area": "one",
+      "blockClass": "banner-top-departamento-desktop",
+      "horizontalAlign": "center",
+      "fullWidth": true
+    }
+  },
+  "search-banner#mobile": {
+    "title": "Banner Departamento",
+    "props": {
+      "area": "two",
+      "blockClass": "banner-top-departamento-mobile",
+      "horizontalAlign": "center",
+      "fullWidth": true
+    }
+  }
+}

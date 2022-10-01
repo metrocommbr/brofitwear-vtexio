@@ -1,0 +1,28 @@
+{
+  "shelf.relatedProducts": {
+    "blocks": ["product-summary.shelf"],
+      "props": {
+        "recommendation": "view",
+        "blockClass": "shelf-related",
+        "hideOutOfStockItems":true,
+        "productList": {
+            "titleText": "Você pode querer também",
+            "itemsPerPage": 3,
+            "minItemsPerPage": 2
+        }
+    }
+  },
+  "shelf.relatedProducts#2": {
+    "blocks": ["product-summary.shelf"],
+      "props": {
+        "recommendation": "buy",
+        "blockClass": "shelf-related",
+        "hideOutOfStockItems":true,
+        "productList": {
+            "titleText": "mais vendidos",
+            "itemsPerPage": 3,
+            "minItemsPerPage": 2
+        }
+    }
+  }
+}

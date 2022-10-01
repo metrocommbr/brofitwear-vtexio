@@ -1,0 +1,38 @@
+/* .productHighlightText[data-highlight-name="AMAR É RESISTIR"]{
+  display: none;
+}
+.productHighlightWrapper[data-highlight-name="AMAR É RESISTIR"]{
+  left: 20px;
+}
+.productHighlightWrapper[data-highlight-name="AMAR É RESISTIR"]::before{
+  content: " ";
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 20010904//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'%3E%3Csvg version='1.0' xmlns='http://www.w3.org/2000/svg' width='200.000000pt' height='344.000000pt' viewBox='0 0 200.000000 344.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,344.000000) scale(0.100000,-0.100000)'%0Afill='%23c01466' stroke='none'%3E%3Cpath d='M927 3430 c-89 -23 -196 -100 -246 -179 -75 -116 -164 -360 -208%0A-570 -23 -108 -27 -150 -27 -296 1 -139 4 -185 22 -255 25 -101 72 -220 142%0A-360 28 -56 49 -109 46 -117 -5 -13 -329 -484 -572 -832 l-80 -114 133 -345%0Ac74 -191 135 -348 137 -350 8 -8 545 782 676 996 25 39 48 72 51 72 4 0 37%0A-48 75 -107 229 -363 643 -968 654 -956 10 12 265 676 264 688 -1 6 -148 223%0A-328 482 l-328 472 60 123 c128 262 151 344 159 558 4 130 2 175 -16 280 -37%0A214 -134 500 -212 621 -89 140 -266 223 -402 189z m148 -430 c97 -14 201 -66%0A259 -131 25 -28 46 -55 46 -60 0 -21 -51 -134 -100 -221 -59 -105 -269 -428%0A-279 -428 -3 0 -56 76 -117 168 -113 170 -220 360 -249 441 -15 43 -15 43 16%0A82 58 73 167 133 274 149 71 11 72 11 150 0z'/%3E%3C/g%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  background-size: contain;
+} */
+.productHighlightWrapper--collection {
+    top: 74px;
+    position: absolute;
+    left: 10px;
+    width: max-content;
+}
+
+.productHighlightText {
+    background: black;
+    border-radius: 0px;
+    padding: 5px 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+
+@media(max-width:767px){
+  .productHighlightWrapper[data-highlight-name="AMAR É RESISTIR"]{
+    left: 12px;
+  }
+}

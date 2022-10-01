@@ -1,0 +1,153 @@
+{
+    "footer-layout.mobile": {
+        "children": [
+            "flex-layout.row#footer-line-1",
+            "flex-layout.row#footer-line-2",
+            "flex-layout.row#footer-line-3"
+        ]
+    },
+    "flex-layout.row#footer-line-1": {
+        "children": [
+          "flex-layout.row#footer-line-logo"
+        ],
+        "props": {
+            "blockClass": "payment-methods",
+            "paddingTop": 4,
+            "paddingBottom": 4
+        }
+    },
+    "flex-layout.row#footer-line-2": {
+      "children": [
+        "flex-layout.col#footer-col-menu-mobile",
+        "flex-layout.col#footer-col-contacts-mobile"
+      ],
+      "props": {
+          "blockClass": "payment-methods",
+          "paddingTop": 4,
+          "paddingBottom": 4
+      }
+    },
+
+    "flex-layout.row#footer-line-3": {
+      "children": [
+        "flex-layout.col#footer-col-payments",
+        "rich-text#footer-cnpj-mobile",
+        "flex-layout.row#footer-credits-row"
+      ],
+      "props": {
+          "blockClass": "payment-methods",
+          "paddingTop": 4,
+          "paddingBottom": 4
+      }
+    },
+    "flex-layout.col#footer-col-payments": {
+      "children": [
+        "rich-text#footer-row-4-payments",
+        "flex-layout.col#icon-payments-mobile"
+      ],
+      "props": {
+          "blockClass": "footer-col-middle-one"
+      }
+    },
+    "flex-layout.col#footer-col-menu-mobile": {
+      "children": ["vtex.menu@2.x:menu#Products"],
+      "props": {
+          "blockClass": "footer-line-one"
+      }
+    },
+    "flex-layout.col#footer-col-contacts-mobile": {
+        "children": [
+          "flex-layout.col#footer-line-social"
+        ],
+        "props": {
+            "blockClass": "payment-methods",
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "rowGap": 4
+        }
+    },
+    "flex-layout.col#footer-line-social": {
+      "children": [
+        "rich-text#redes-sociais-title",
+        "social-networks"
+      ],
+      "props": {
+          "blockClass": "footer-col-middle-three"
+      }
+    },
+    "flex-layout.col#footer-line-payments": {
+      "children": [
+        "rich-text#footer-row-4-payments",
+        "flex-layout.col#icon-payments-mobile"
+      ],
+      "props": {
+          "blockClass": "footer-col-middle-one"
+      }
+    },
+    "flex-layout.row#footer-line-logo": {
+      "children": [
+          "flex-layout.col#footer-logo-mobile",
+          "flex-layout.col#footer-tel-mobile"
+      ],
+      "props": {
+          "blockClass": "footer-line-one-mobile"
+      }
+    },
+    "flex-layout.col#footer-tel-mobile": {
+      "children": [ "rich-text#footer-phone", "rich-text#footer-whats"],
+      "props": {
+          "blockClass": "footer-line-one"
+      }
+    },
+    "flex-layout.col#footer-logo-mobile": {
+      "children": ["logo#mobile-short"],
+      "props": {
+          "blockClass": "footer-col-one"
+      }
+    },
+
+    "flex-layout.col#footer-col-3-mobile": {
+      "children": ["vtex.menu@2.x:menu#Products"],
+      "props": {
+          "blockClass": "footer-line-one-mobile"
+      }
+    },
+    "flex-layout.col#footer-col-2-middle-mobile": {
+      "children": ["rich-text#selos-title",
+      "image#selos-pci",
+      "image#selos-moss",
+      "image#selos-lets"],
+      "props": {
+          "blockClass": "footer-col-middle-two-mobile"
+      }
+    },
+    "flex-layout.col#mobile-social-networks": {
+      "children": [
+        "rich-text#social-networks-row",
+        "social-networks"
+      ],
+      "props": {
+        "blockClass": "social-networks-row"
+      }
+    },
+    "flex-layout.col#footer-credits": {
+      "props": {
+        "paddingTop": 4,
+        "paddingBottom": 4
+    },
+    "children": ["rich-text#developer-by", "rich-text#developer-by-negrito"]
+    },
+    "flex-layout.row#1-footer-mobile": {
+        "props": {
+            "paddingTop": 4,
+            "paddingBottom": 4
+        },
+        "children": ["vtex.menu@2.x:menu#footer-mobile"]
+    },
+    "rich-text#social-networks-row": {
+      "props": {
+          "text": "redes sociais",
+          "blockClass": "developer-by"
+      }
+    }
+}

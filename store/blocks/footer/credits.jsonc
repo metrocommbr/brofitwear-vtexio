@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#footer-credits-row": {
+    "children": ["flex-layout.col#footer-credits"],
+    "props": {
+      "blockClass": "credits-footer"
+    }
+  },
+    "rich-text#footer-cnpj-mobile": {
+        "props": {
+            "text": "2022 BRO FITWEAR. Todos os direitos reservados. CNPJ: 21.303.032./0001-36",
+            "blockClass": "footer"
+        }
+    },
+
+    "rich-text#footer": {
+        "props": {
+            "text": "2022 BRO FITWEAR. Todos os direitos reservados. CNPJ: 21.303.032./0001-36",
+            "blockClass": "footer"
+        }
+    },
+    "rich-text#developer-by": {
+        "props": {
+            "text": "desenvolvido por",
+            "blockClass": "developer-by"
+        }
+    },
+    "rich-text#developer-by-negrito": {
+        "props": {
+            "text": "NOBLINDD2",
+            "blockClass": "developer-by-negrito"
+        }
+    }
+
+}

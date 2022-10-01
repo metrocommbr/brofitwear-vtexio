@@ -1,0 +1,17 @@
+.row--menu-row {
+    padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+    align-items: flex-start;
+}
+
+.row--payment-methods {
+    padding-top: 16px;
+}
+
+.footerLayout {
+    max-width: 1161px;
+    display: block;
+    margin: 0 auto;
+}

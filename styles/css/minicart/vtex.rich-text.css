@@ -1,0 +1,73 @@
+.paragraph--title-header-minicart{
+
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  line-height: 20px;
+  color: #24272f;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.paragraph--text-minicart-empty-state{
+
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  line-height: 20px;
+  color: #525a6a;
+
+
+}
+
+.wrapper--text-minicart-empty-state,
+.wrapper--title-header-minicart{
+  width: 100%;
+}
+
+.paragraph--text-total{
+  margin-left: 9px;
+
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  text-align: left;
+  color: #000;
+
+}
+
+.paragraph--text-sobtotal{
+  padding-left:10px;
+
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  text-align: left;
+  color: #000;
+
+}
+
+.paragraph--value-text-subtotal{
+
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  line-height: 24px;
+  text-align: right;
+  padding-right: 3px;
+  color: #000;
+
+}
+
+.paragraph--value-text-total{
+
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  line-height: 24px;
+  padding-right: 3px;
+  text-align: right;
+  color: #000;
+}

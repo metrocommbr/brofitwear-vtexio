@@ -1,0 +1,19 @@
+.product-identifier--productReference{
+  color: #a3a3a3;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.78px;
+}
+.product-identifier__label{
+  font-size: 0px;
+  width: fit-content;
+}
+.product-identifier__label::after{
+  content: "Ref";
+  color: #a3a3a3;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.78px;
+  margin-left: -6px;
+  margin-bottom: 5px;
+}

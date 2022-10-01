@@ -1,0 +1,161 @@
+.filtersWrapper--filter-desktop{
+  display: flex;
+  justify-content: flex-start;
+}
+.filter__container--filter-desktop--title,
+.filterMessage--filter-desktop,
+.filter__container--selectedFilters,
+.filter__container--priceRange{
+  display: none;
+}
+.filters--layout{
+  border-top: 1px solid #C3C3C3;
+  border-bottom: 1px solid #C3C3C3;
+}
+.filterTitleSpan--filter-desktop{
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 18px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #0d0b0f;
+}
+.filterIcon--filter-desktop{
+  color: #0d0b0f;
+  width: 8.27px;
+  height: 4.13px;
+  padding: 0px;
+}
+.filterTitle--filter-desktop{
+  flex-direction: row-reverse;
+  justify-content: left;
+  gap: 15px;
+}
+
+.filter__container--filter-desktop{
+  margin-right: 80px;
+}
+.filterAvailable--filter-desktop{
+  padding: 13px 0px;
+  max-width: fit-content;
+}
+
+
+.gallery--grid{
+  padding: 0px;
+  gap: 5px;
+  margin: 0px;
+}
+.galleryItem--grid{
+  padding: 0px;
+  max-width: calc(50% - 4px) !important;
+}
+.searchResultContainer{
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 16px 0px;
+}
+
+.filterItem--filter-desktop--selected :global(.vtex-checkbox__line-container){
+  align-items: center;
+}
+
+.filterItem--filter-desktop--selected  :global(.vtex-checkbox__inner-container){
+  background-color:#0d0b0f;
+  border-color: #0d0b0f;
+}
+.filterItem--filter-desktop :global(.vtex-checkbox__label){
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  line-height: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #0d0b0f;
+}
+
+.buttonShowMore :global(.vtex-button){
+  width: 100%;
+  max-width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+  border: none;
+  border-radius: 0px;
+  padding: 10px;
+}
+
+.filterPopupArrowIcon{
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9.68' height='6.254' viewBox='0 0 9.68 6.254'%3E%3Cpath id='Caminho_214' data-name='Caminho 214' d='M-809.6,1186l4.133,4.133-4.133,4.133' transform='translate(1194.973 810.304) rotate(90)' fill='none' stroke='%230e0a0f' stroke-width='2'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 13px;
+  height: 8.27px;
+  padding: 0px;
+}
+
+.filterPopupArrowIcon :first-child  {
+  display: none;
+}
+
+.filterPopupButton{
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+.filterPopupTitle{
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 18px;
+  text-align: left;
+  color: #0d0b0f;
+
+}
+.filterAccordionItemBox :global(.vtex-checkbox__label),
+.filterBreadcrumbsText,
+ .filterBreadcrumbsItem,
+ .filterBreadcrumbsItemName{
+
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  line-height: 20px;
+  text-align: left;
+  color: #000;
+
+}
+
+.accordionFilterItemTitle{
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  line-height: 20px;
+  text-align: left;
+  color: #000;
+}
+.filterAccordionBreadcrumbs{
+  gap: 10px;
+}
+
+.accordionFilterItemTag :global(.vtex-tag){
+  background-color: #CE0010;
+}
+
+.filterApplyButtonWrapper :global(.vtex-button),
+.filterClearButtonWrapper :global(.vtex-button){
+  background-color: #000;
+  color: #fff;
+  height: 45px;
+  border-radius: 0px;
+  border: none;
+}
+
+@media(min-width: 1024px){
+  .galleryItem--grid{
+    padding: 0px;
+    max-width: calc(25% - 4px) !important;
+  }
+}

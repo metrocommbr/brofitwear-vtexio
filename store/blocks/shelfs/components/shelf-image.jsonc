@@ -1,0 +1,41 @@
+{
+  "stack-layout#prodsum": {
+    "children": [
+      "product-summary-image#shelf",
+      "product-price-savings#summary",
+      "vtex.product-highlights@2.x:product-highlights#collection"
+
+    ]
+  },
+
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "auto",
+      "blockClass": "shelf-image",
+      "hoverImage":{
+        "criteria": "index",
+        "index": 1,
+        "labelMatchCriteria":"contains"
+      }
+    }
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#collection": {
+    "props": {
+      "type": "collection"
+    },
+    "children": ["product-highlight-wrapper"]
+  },
+  "product-highlight-wrapper": {
+    "props": {
+      "blockClass": "collection"
+    },
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  }
+}

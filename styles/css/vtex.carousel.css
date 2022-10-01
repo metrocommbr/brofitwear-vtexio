@@ -1,0 +1,13 @@
+.containerImg {
+    background-color: #f0f0f0;
+}
+
+.containerImg .img {
+    max-width: 100%;
+}
+
+.sliderLayoutContainer--bft-topbar {
+    width: 50%;
+    margin: 0 auto;
+    background: firebrick;
+}

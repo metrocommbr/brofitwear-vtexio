@@ -1,0 +1,30 @@
+:global(.vtex-flex-layout-0-x-flexRow--main-header) .menuContainerNav .styledLinkContent {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Kanit', sans-serif;
+}
+
+.submenuWrapper--isOpen {
+    background: purple;
+}
+
+.submenu {
+    background: forestgreen;
+}
+
+.submenuWrapper--isOpen .menuContainerNav {
+    background: yellow;
+}
+
+.submenuWrapper--isOpen .menuContainerNav .menuItem {
+    background: orangered;
+}
+
+.submenuWrapper--isOpen .menuContainerNav .menuItem .styledLink {
+    background: turquoise;
+}
+
+.submenuWrapper--isOpen .menuContainerNav .menuItem .styledLink .styledLinkContent {
+    background: salmon;
+}

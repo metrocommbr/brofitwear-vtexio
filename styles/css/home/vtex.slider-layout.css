@@ -1,0 +1,28 @@
+.sliderLayoutContainer--categorys-home{
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.sliderTrackContainer--categorys-home{
+  margin-left: 25px;
+}
+
+
+@media(min-width: 1024px){
+
+  .sliderTrackContainer--categorys-home{
+    margin-left: 0px;
+    margin-bottom: 60px;
+  }
+
+  .sliderTrack--categorys-home{
+    gap: 7px;
+  }
+
+  .sliderLayoutContainer--instashop-home{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+}

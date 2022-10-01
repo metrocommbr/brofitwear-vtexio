@@ -1,0 +1,39 @@
+{
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "flex-layout.row#selling-price-savings": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4,
+      "blockClass": "price-shelf"
+    },
+    "children": [
+      "product-selling-price#shelf"
+    ]
+  },
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary",
+      "message": "{installmentsNumber}x {installmentValue}{hasInterest, select, true {, {interestRate} de juros} false { sem juros}}"
+    }
+  },
+  "product-selling-price#shelf": {
+    "props": {
+      "blockClass": "shelf"
+    }
+  },
+  "product-price-savings#summary": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "blockClass": "shelf",
+      "message": "{savingsPercentage} Off"
+    }
+  }
+}

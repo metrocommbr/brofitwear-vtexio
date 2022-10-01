@@ -1,0 +1,24 @@
+.paragraph--text-buybox{
+
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  line-height: 20px;
+  text-align: left;
+  color: #a3a3a3;
+
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  margin-bottom: 20px;
+
+}
+.paragraph--text-buybox::before{
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='10.669' viewBox='0 0 12 10.669'%3E%3Cpath id='Moos' d='M11.383.2a.324.324,0,0,0-.59-.025A3.573,3.573,0,0,1,7.67,2H6A4,4,0,0,0,2,6a4.12,4.12,0,0,0,.031.427A9.968,9.968,0,0,1,8,4.666a.333.333,0,1,1,0,.667C2.765,5.333.544,8.543.053,9.75a.668.668,0,0,0,1.236.506,5.482,5.482,0,0,1,1.5-1.888A3.992,3.992,0,0,0,6.43,9.977C9.7,9.739,12,6.806,12,3.214A7.577,7.577,0,0,0,11.383.2Z' transform='translate(-0.004 0.002)' fill='%23c3c3c3'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 11px;
+  display: flex;
+
+}

@@ -1,0 +1,29 @@
+{
+  "flex-layout.row#manifest-home": {
+    "children": [
+      "rich-text#text-manifest-home",
+      "video#manifest-desktop"
+    ],
+    "props": {
+      "blockClass": ["manifest-home"]
+    }
+  },
+
+  "rich-text#text-manifest-home": {
+    "props": {
+      "blockClass": ["text-manifest-home"],
+      "text": "## Manifesto \n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  "video#manifest-desktop": {
+    "props": {
+      "width": "100%",
+      "height": "500",
+      "loop": true,
+      "autoPlay": true,
+      "muted": true,
+      "src": "https://files.mrsa.io/ecommerce/banners/mr/home/principal/morenatropicanaok.mp4",
+      "blockClass": "video-manifest-desktop"
+    }
+  }
+}

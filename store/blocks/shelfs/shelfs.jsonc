@@ -1,0 +1,110 @@
+{
+  "flex-layout.row#row-shelf-01": {
+    "children": [
+      "flex-layout.col#col-shelf-01"
+    ],
+    "props": {
+      "blockClass": [
+        "row-shelf",
+        "row-shelf-01"
+      ]
+    }
+  },
+  "flex-layout.col#col-shelf-01": {
+    "children": [
+      "rich-text#title-shelf-01",
+      "list-context.product-list#shelf-01"
+    ],
+    "props": {
+      "blockClass": [
+        "col-shelf-01"
+      ]
+    }
+  },
+  "rich-text#title-shelf-01": {
+    "props": {
+      "blockClass": [
+        "title-shelf"
+      ],
+      "text": "Promoções"
+    }
+  },
+  "list-context.product-list#shelf-01": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#shelf-01"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#shelf-01": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "shelf"
+    }
+  },
+  "flex-layout.row#row-shelf-02": {
+    "children": [
+      "flex-layout.col#col-shelf-02"
+    ],
+    "props": {
+      "blockClass": [
+        "row-shelf",
+        "row-shelf-02"
+      ]
+    }
+  },
+  "flex-layout.col#col-shelf-02": {
+    "children": [
+      "rich-text#title-shelf-02",
+      "list-context.product-list#shelf-02"
+    ],
+    "props": {
+      "blockClass": [
+        "col-shelf-02"
+      ]
+    }
+  },
+  "rich-text#title-shelf-02": {
+    "props": {
+      "blockClass": [
+        "title-shelf"
+      ],
+      "text": "Mais vendidos"
+    }
+  },
+  "list-context.product-list#shelf-02": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#shelf-02"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#shelf-02": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "shelf"
+    }
+  }
+}

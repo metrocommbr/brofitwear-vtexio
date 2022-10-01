@@ -1,0 +1,46 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop#home",
+      "responsive-layout.mobile#home"
+    ]
+  },
+
+  "responsive-layout.desktop#home": {
+    "children": [
+      "video#banner-main-desktop",
+      "__fold__",
+      "flex-layout.row#row-discount-home",
+      "flex-layout.row#container-highlights-home",
+      "rich-text#title-slider-categorys-home",
+      "list-context.image-list#categorys-home",
+      "flex-layout.row#row-shelf-01",
+      "flex-layout.row#row-shelf-02",
+      "image#banner-content-desk",
+      "flex-layout.row#manifest-home",
+      "rich-text#title-slider-instashop-home",
+      "list-context.image-list#instashop-home"
+    ]
+  },
+
+  "responsive-layout.mobile#home": {
+    "children": [
+      "video#banner-main-mobile",
+      "__fold__",
+      "flex-layout.row#row-discount-home",
+      "flex-layout.row#container-highlights-home",
+      "rich-text#title-slider-categorys-home",
+      "list-context.image-list#categorys-home",
+      "flex-layout.row#row-shelf-01",
+      "flex-layout.row#row-shelf-02",
+      "image#banner-content-mob",
+      "flex-layout.row#manifest-home",
+      "rich-text#title-slider-instashop-home",
+      "list-context.image-list#instashop-home"
+    ]
+  }
+
+
+
+
+}

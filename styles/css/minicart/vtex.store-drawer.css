@@ -1,0 +1,32 @@
+.closeIconButton--continue-buy{
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  height: 47px;
+
+  border-radius: 0px;
+  background: #fff;
+  border: 2px solid #0d0b0f;
+  padding: 16px 0;
+
+  font-size: 13px;
+  font-family: 'Kanit';
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  line-height: 12px;
+  text-align: center;
+  color: #0d0b0f;
+  text-transform: uppercase;
+
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+
+}
+
+.closeIconButton--continue-buy:hover {
+  background-color: #a62836;
+  border: none;
+  color: #fff;
+}

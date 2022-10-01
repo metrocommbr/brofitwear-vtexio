@@ -1,0 +1,103 @@
+{
+  "menu-item#lancamentos": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "lancamento",
+        "text": "Lançamentos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#lancamentos"]
+  },
+  "vtex.menu@2.x:submenu#lancamentos": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#menu-lancamentos"]
+  },
+  "flex-layout.row#menu-lancamentos": {
+    "children": [
+      "flex-layout.col#menu-lancamento-1",
+      "flex-layout.col#menu-lancamento-2",
+      "flex-layout.col#menu-lancamento-3"
+    ]
+  },
+  "flex-layout.col#menu-lancamento-1": {
+    "children": ["image#banner-sub-lancamentos"]
+  },
+  "flex-layout.col#menu-lancamento-2": {
+    "children": ["vtex.menu@2.x:menu#lancamentos"]
+  },
+  "flex-layout.col#menu-lancamento-3": {
+    "children": ["vtex.menu@2.x:menu#lancamentos"]
+  },
+  "vtex.menu@2.x:menu#lancamentos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#lancamento-um",
+      "menu-item#faq",
+      "menu-item#faq-two"
+    ]
+  },
+  "menu-item#lancamento-um": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Lançamento 1",
+        "text": "Lançamento 1"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ 3",
+        "text": "FAQ 3"
+      }
+    }
+  },
+  "menu-item#faq-two": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ 2",
+        "text": "FAQ 2"
+      }
+    }
+  },
+  "image#banner-sub-lancamentos": {
+    "props": {
+      "src": "https://brofitwear.vteximg.com.br/arquivos/banner-sub-menu.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "footer-selo-pci"
+    }
+  }
+}

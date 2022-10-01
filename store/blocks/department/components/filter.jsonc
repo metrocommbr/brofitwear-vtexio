@@ -1,0 +1,26 @@
+{
+  "flex-layout.col#filterMobile": {
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "blockClass": "filterMobileCol"
+    }
+  },
+  "flex-layout.row#filter-desktop": {
+    "children": [
+      "filter-navigator.v3#desktop"
+    ],
+    "props": {
+      "blockClass": [
+        "filter-desktop"
+      ]
+    }
+  },
+  "filter-navigator.v3#desktop": {
+    "props": {
+      "blockClass": "filter-desktop",
+      "initiallyCollapsed": true
+    }
+  }
+}

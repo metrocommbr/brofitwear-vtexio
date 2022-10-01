@@ -1,0 +1,19 @@
+.flexColChild--filterMobileCol :global(.vtex-search-result-3-x-filters--layout){
+  border: none;
+}
+.flexRow--filter-desktop{
+  margin: 15px 0px 50px 0px;
+}
+.flexRow--filter-desktop :global(.vtex-store-components-3-x-container){
+  padding: 0px;
+}
+.flexRow--search-content-mobile :global(.vtex-store-components-3-x-container){
+  padding: 0px 20px;
+}
+.flexRowContent--breadcrumb-search-mobile{
+  padding: 0px 20px;
+  justify-content: space-between;
+}
+.flexRowContent--breadcrumb-search-mobile .stretchChildrenWidth{
+  width: fit-content !important;
+}

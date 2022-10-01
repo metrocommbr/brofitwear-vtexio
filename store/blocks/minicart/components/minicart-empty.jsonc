@@ -1,0 +1,99 @@
+{
+  "minicart-empty-state": {
+    "children": ["flex-layout.row#empty-state"]
+  },
+  "flex-layout.row#empty-state": {
+    "children": ["flex-layout.col#empty-state"]
+  },
+  "flex-layout.col#empty-state": {
+    "props":{
+      "textAlignment":"CENTER",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "field-text-empty-state"
+    },
+    "children": [
+      "flex-layout.col#col-empty-state",
+      "flex-layout.row#minicart-footer-empty"
+    ]
+  },
+  "rich-text#minicart-default-empty-state": {
+    "title": "Texto Minicart Vazio",
+    "props": {
+      "blockClass": "minicart-default-empty-state",
+      "text": "Seu carrinho está vázio."
+    }
+  },
+  "rich-text#second-text-minicart-empty-state":{
+    "title": "Segundo Texto Minicart Vazio",
+    "props":{
+      "blockClass": "text-minicart-empty-state",
+      "textAlignment": "CENTER",
+      "text": "Navegue pelo site para adicionar \n produtos ao seu carrinho."
+    }
+  },
+
+  "flex-layout.col#col-empty-state":{
+    "children":[
+      "rich-text#title-header-minicart",
+      "rich-text#second-text-minicart-empty-state"
+    ]
+  },
+
+  "rich-text#footer-total-minicart-empty":{
+    "title": "Texto Total Minicart Footer",
+    "props":{
+      "blockClass": "text-total",
+      "text": "Total"
+    }
+  },
+  "rich-text#footer-subtotal-minicart-empty":{
+    "title": "Texto Subtotal Minicart Footer",
+    "props":{
+      "blockClass": "text-sobtotal",
+      "text": "Subtotal"
+    }
+  },
+  "rich-text#footer-value-minicart-empty":{
+    "title": "Texto subtotal Minicart Footer",
+    "props":{
+      "blockClass": "value-text-subtotal",
+      "text": "R$ 0"
+    }
+  },
+  "rich-text#footer-value-total-minicart-empty":{
+    "title": "Texto Total Minicart Footer",
+    "props":{
+      "blockClass": "value-text-total",
+      "text": "R$ 0"
+    }
+  },
+  "flex-layout.col#footer-empty-subtotal":{
+    "props":{
+      "blockClass": "row-subtotal"
+    },
+    "children":[
+      "rich-text#footer-subtotal-minicart-empty",
+      "rich-text#footer-value-minicart-empty"
+    ]
+  },
+  "flex-layout.col#footer-empty-total":{
+    "props":{
+      "blockClass": "container-col-total"
+    },
+    "children":[
+      "rich-text#footer-total-minicart-empty",
+      "rich-text#footer-value-total-minicart-empty"
+    ]
+  },
+  "flex-layout.row#footer-empty-summer":{
+    "props":{
+      "blockClass":"container-summer-empty",
+      "fullWidth": true
+    },
+    "children":[
+      "flex-layout.col#footer-empty-subtotal",
+      "flex-layout.col#footer-empty-total"
+    ]
+  }
+}
