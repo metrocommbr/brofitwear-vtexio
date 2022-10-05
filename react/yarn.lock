@@ -127,10 +127,6 @@
   version "0.1.2"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.responsive-layout@0.1.2/public/@types/vtex.responsive-layout#e33f23a78afb3ffb8ff8aedc77b1ca6728583e72"
 
-"vtex.reviews-and-ratings@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.reviews-and-ratings@3.11.1/public/@types/vtex.reviews-and-ratings":
-  version "3.11.1"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.reviews-and-ratings@3.11.1/public/@types/vtex.reviews-and-ratings#e507e3dbb1db96e348e912cad54c11e221e2b467"
-
 "vtex.rich-text@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.rich-text@0.15.0/public/@types/vtex.rich-text":
   version "0.15.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.rich-text@0.15.0/public/@types/vtex.rich-text#f23416cea64e72531069e58f1b137dfdb5b4b510"

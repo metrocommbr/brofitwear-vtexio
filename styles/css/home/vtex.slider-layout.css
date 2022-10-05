@@ -7,8 +7,12 @@
 .sliderTrackContainer--categorys-home{
   margin-left: 25px;
 }
-
-
+.sliderLayoutContainer--instashop-home .paginationDotsContainer--instashop-home{
+  display: flex;
+}
+.sliderLayoutContainer--instashop-home .paginationDot--isActive{
+  background-color: #000;
+}
 @media(min-width: 1024px){
 
   .sliderTrackContainer--categorys-home{
@@ -17,7 +21,7 @@
   }
 
   .sliderTrack--categorys-home{
-    gap: 7px;
+    gap: 5px;
   }
 
   .sliderLayoutContainer--instashop-home{

@@ -35,7 +35,6 @@
     "vtex.product-summary": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary@2.80.1/public/@types/vtex.product-summary",
     "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime",
     "vtex.responsive-layout": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.responsive-layout@0.1.2/public/@types/vtex.responsive-layout",
-    "vtex.reviews-and-ratings": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.reviews-and-ratings@3.11.1/public/@types/vtex.reviews-and-ratings",
     "vtex.rich-text": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.rich-text@0.15.0/public/@types/vtex.rich-text",
     "vtex.search": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search@2.14.0/public/@types/vtex.search",
     "vtex.search-result": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.118.16/public/@types/vtex.search-result",

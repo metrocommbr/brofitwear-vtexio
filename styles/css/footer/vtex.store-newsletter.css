@@ -1,7 +1,7 @@
 .newsletterForm--form-newsletter {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
   padding-right: 26px;
 }
 .newsletterForm--form-newsletter :global(.vtex-input-prefix__group) {

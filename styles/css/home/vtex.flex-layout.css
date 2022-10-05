@@ -59,6 +59,7 @@
   .flexRowContent--banners-highlights-home{
     margin-top: 20px;
     margin-bottom: 80px;
+    gap: 5px;
   }
 
   .flexRow--manifest-home :global(.vtex-store-components-3-x-container){
