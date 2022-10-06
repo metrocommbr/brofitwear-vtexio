@@ -1,30 +1,62 @@
-:global(.vtex-flex-layout-0-x-flexRow--main-header) .menuContainerNav .styledLinkContent {
-    color: #fff;
-    font-size: 12px;
-    font-weight: 600;
-    font-family: 'Kanit', sans-serif;
-}
 
 .submenuWrapper--isOpen {
-    background: purple;
+    background: transparent;
+    border: none;
+    padding-top: 8px;
 }
 
 .submenu {
-    background: forestgreen;
+   background-color: #fff;
+   width: 100%;
+   max-width: 1240px;
+   margin: 0 auto;
+   padding: 35px;
+   justify-content: flex-start;
 }
 
-.submenuWrapper--isOpen .menuContainerNav {
-    background: yellow;
+
+.menuContainer--header-menu .styledLinkContent {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #a3a3a3 !important;
 }
 
-.submenuWrapper--isOpen .menuContainerNav .menuItem {
-    background: orangered;
+.menuContainer--header-menu .styledLinkContent--menu-title{
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  line-height: 20px;
+  text-align: left;
+  color: #0d0b0f !important;
+}
+.menuContainer--header-menu .styledLinkContainer,
+.menuContainer--header-menu .styledLink{
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
-.submenuWrapper--isOpen .menuContainerNav .menuItem .styledLink {
-    background: turquoise;
+
+.menuContainer--header-menu-nav .styledLinkContent{
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  line-height: 18px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #fff;
 }
 
-.submenuWrapper--isOpen .menuContainerNav .menuItem .styledLink .styledLinkContent {
-    background: salmon;
+
+.menuContainer--header-menu-nav .styledLinkContainer{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.menuContainer--header-menu-nav{
+  gap: 40px;
+  justify-content: space-between;
 }

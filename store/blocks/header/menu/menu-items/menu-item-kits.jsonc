@@ -1,0 +1,18 @@
+{
+  "menu-item#kits": {
+    "props": {
+        "id": "menu-item-kits",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/kits",
+            "noFollow": true,
+            "tagTitle": "kits",
+            "text": "kits"
+        }
+    }
+   // "blocks": ["vtex.menu@2.x:submenu#lancamentos"]
+}
+}

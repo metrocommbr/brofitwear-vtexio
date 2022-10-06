@@ -1,0 +1,339 @@
+{
+  "menu-item#lancamentos": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "lancamento",
+        "text": "Lançamentos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#lancamentos"]
+  },
+  "vtex.menu@2.x:submenu#lancamentos": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#menu-lancamentos"]
+  },
+  "flex-layout.row#menu-lancamentos": {
+    "children": [
+      "flex-layout.col#menu-lancamento-1",
+      "flex-layout.row#menu-items"
+    ],
+    "props": {
+      "blockClass": "row-menu-items"
+    }
+  },
+
+  "flex-layout.col#menu-lancamento-1": {
+    "children": ["image#banner-sub-lancamentos"]
+  },
+
+  "image#banner-sub-lancamentos": {
+    "props": {
+      "src": "/arquivos/image-menu.png",
+      "blockClass": "image-menu"
+    }
+  },
+
+  "flex-layout.row#menu-items": {
+    "children": [
+      "flex-layout.col#menu-lancamento-2",
+      "flex-layout.col#menu-lancamento-3",
+      "flex-layout.col#menu-lancamento-4"
+    ],
+    "props": {
+      "blockClass": ["menu-items", "items-menu"]
+    }
+  },
+
+  "flex-layout.col#menu-lancamento-2": {
+    "children": ["vtex.menu@2.x:menu#lancamentos"]
+  },
+  "flex-layout.col#menu-lancamento-3": {
+    "children": ["vtex.menu@2.x:menu#lancamentos2"]
+  },
+  "flex-layout.col#menu-lancamento-4": {
+    "children": ["vtex.menu@2.x:menu#lancamentos3"]
+  },
+  "vtex.menu@2.x:menu#lancamentos": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "header-menu"
+    },
+    "children": [
+      "menu-item#lancamento-um",
+      "menu-item#eco",
+      "menu-item#plus-size"
+    ]
+  },
+  "menu-item#lancamento-um": {
+    "props": {
+      "id": "menu-item-lancamentos",
+      "type": "custom",
+      "blockClass": "menu-title",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/especiais",
+        "noFollow": true,
+        "tagTitle": "Especiais",
+        "text": "Especiais"
+      }
+    }
+  },
+  "menu-item#eco": {
+    "props": {
+      "id": "menu-item-eco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lancamentos/especiais/eco",
+        "noFollow": true,
+        "tagTitle": "Eco",
+        "text": "Eco"
+      }
+    }
+  },
+  "menu-item#plus-size": {
+    "props": {
+      "id": "menu-item-plus-size",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lancamentos/especiais/plus-size",
+        "noFollow": true,
+        "tagTitle": "plus size",
+        "text": "plus size"
+      }
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#lancamentos2": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "header-menu"
+    },
+    "children": [
+      "menu-item#lancamento-2",
+      "menu-item#menu-item-lancamento2-meta",
+      "menu-item#menu-item-lancamento2-ferver",
+      "menu-item#menu-item-lancamento2-amar-criar",
+      "menu-item#menu-item-lancamento2-alta-energia",
+      "menu-item#menu-item-lancamento2-tech-summer",
+      "menu-item#menu-item-lancamento2-leve-como-brisa",
+      "menu-item#menu-item-lancamento2-bro-sunset"
+    ]
+  },
+  "menu-item#lancamento-2": {
+    "props": {
+      "id": "menu-item-lancamento-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "/lancamentos/colecoes",
+        "noFollow": true,
+        "tagTitle": "Coleções",
+        "text": "Coleções"
+      }
+    }
+  },
+  "menu-item#menu-item-lancamento2-meta": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lancamentos/colecoes/meta",
+        "noFollow": true,
+        "tagTitle": "meta",
+        "text": "meta"
+      }
+    }
+  },
+  "menu-item#menu-item-lancamento2-ferver": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lancamentos/colecoes/ferver",
+        "noFollow": true,
+        "tagTitle": "ferver",
+        "text": "ferver"
+      }
+    }
+  },
+  "menu-item#menu-item-lancamento2-amar-criar": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lancamentos/colecoes/amar-criar",
+        "noFollow": true,
+        "tagTitle": "amar criar",
+        "text": "amar criar"
+      }
+    }
+  },
+  "menu-item#menu-item-lancamento2-alta-energia": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lancamentos/colecoes/alta-energia",
+        "noFollow": true,
+        "tagTitle": "Alta Energia",
+        "text": "Alta Energia"
+      }
+    }
+  },
+  "menu-item#menu-item-lancamento2-tech-summer": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lancamentos/colecoes/tech-summer",
+        "noFollow": true,
+        "tagTitle": "Tech Summer",
+        "text": "Tech Summer"
+      }
+    }
+  },
+  "menu-item#menu-item-lancamento2-leve-como-brisa": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lancamentos/colecoes/leve-como-brisa",
+        "noFollow": true,
+        "tagTitle": "Leve como brisa",
+        "text": "Leve como brisa"
+      }
+    }
+  },
+  "menu-item#menu-item-lancamento2-bro-sunset": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lancamentos/colecoes/bro-sunset",
+        "noFollow": true,
+        "tagTitle": "Bro sunset",
+        "text": "Bro sunset"
+      }
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#lancamentos3": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "header-menu"
+    },
+    "children": [
+      "menu-item#lancamento-3",
+      "menu-item#menu-item-lancamento-look-book-1",
+      "menu-item#menu-item-lancamento-look-book-2",
+      "menu-item#menu-item-lancamento-look-book-3"
+    ]
+  },
+
+  "menu-item#lancamento-3": {
+    "props": {
+      "id": "menu-item-lancamento-3",
+      "blockClass": "menu-title",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/campanhas",
+        "noFollow": true,
+        "tagTitle": "Campanhas",
+        "text": "Campanhas"
+      }
+    }
+  },
+  "menu-item#menu-item-lancamento-look-book-1": {
+    "props": {
+      "id": "menu-item-lancamento-look-book-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/campanhas/look-book-1",
+        "noFollow": true,
+        "tagTitle": "Look Book 1",
+        "text": "Look Book 1"
+      }
+    }
+  },
+
+  "menu-item#menu-item-lancamento-look-book-2": {
+    "props": {
+      "id": "menu-item-lancamento-look-book-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/campanhas/look-book-2",
+        "noFollow": true,
+        "tagTitle": "Look Book 2",
+        "text": "Look Book 2"
+      }
+    }
+  },
+
+  "menu-item#menu-item-lancamento-look-book-3": {
+    "props": {
+      "id": "menu-item-lancamento-look-book-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/campanhas/look-book-3",
+        "noFollow": true,
+        "tagTitle": "Look Book 3",
+        "text": "Look Book 3"
+      }
+    }
+  }
+}

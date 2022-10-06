@@ -1,0 +1,18 @@
+.flexRowContent--main-header{
+
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0;
+  justify-content:  space-between;
+}
+.flexRowContent--row-menu-items{
+  gap: 70px;
+}
+.flexRowContent--row-menu-items .stretchChildrenWidth{
+  width: fit-content !important;
+}
+
+.flexRowContent--items-menu{
+  gap: 70px;
+}

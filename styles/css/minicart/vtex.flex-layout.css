@@ -169,3 +169,12 @@
 :global(.vtex-store__template){
   font-family: 'Kanit' !important;
 }
+
+
+.flexRowContent--icons-header-desktop{
+  justify-content: space-between;
+  gap: 25px;
+}
+.flexRowContent--icons-header-desktop .stretchChildrenWidth{
+  width: fit-content !important;
+}

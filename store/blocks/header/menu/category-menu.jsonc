@@ -1,48 +1,18 @@
 {
     "vtex.menu@2.x:menu#category-menu": {
         "props": {
-            "experimentalOptimizeRendering": true
+            "experimentalOptimizeRendering": true,
+            "blockClass": "header-menu-nav"
         },
         "children": [
-            "menu-item#lancamentos"
-            // "menu-item#basicos",
-            // "menu-item#kits",
-            // "menu-item#conjuntos",
-            // "menu-item#off"
+            "menu-item#lancamentos",
+            "menu-item#basicos",
+            "menu-item#categorias",
+            "menu-item#conjuntos",
+            "menu-item#kits",
+            "menu-item#off",
+            "menu-item#sobre-nos"
         ]
-    },
-    "menu-item#lancamentos": {
-        "props": {
-            "id": "menu-item-custom-sale",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": true,
-                "tagTitle": "lancamentos",
-                "text": "lancamentos"
-            }
-        },
-        "blocks": ["vtex.menu@2.x:submenu#lancamentos"]
-    },
-    "vtex.menu@2.x:submenu#lancamentos": {
-        "props": {
-            "width": "100%"
-        },
-        "children": ["flex-layout.row#lancamentos"]
-    },
-    "flex-layout.row#lancamentos": {
-        "children": ["flex-layout.col#lancamentos-1"]
-    },
-    "flex-layout.col#lancamentos-1": {
-        "children": ["vtex.menu@2.x:menu#lancamentos"]
-    },
-    "vtex.menu@2.x:menu#lancamentos": {
-        "props": {
-            "orientation": "vertical"
-        },
-        "children": ["menu-item#about-us", "menu-item#faq", "menu-item#faq-two"]
-    }    
+    }
+
 }

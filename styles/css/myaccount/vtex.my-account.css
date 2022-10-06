@@ -547,3 +547,8 @@
       padding:20px 28px;
      }
   }
+  :global(.vtex-store-components-3-x-searchBarContainer):focus,
+  /* :global(.vtex-store-components-3-x-searchBarContainer):hover, */
+ :global(.vtex-store-components-3-x-searchBarContainer):focus-visible{
+  max-width: 100px;
+ }

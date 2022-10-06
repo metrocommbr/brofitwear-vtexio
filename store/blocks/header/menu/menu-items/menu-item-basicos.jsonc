@@ -1,0 +1,18 @@
+{
+  "menu-item#basicos": {
+    "props": {
+        "id": "menu-item-custom-sale",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/basicos",
+            "noFollow": true,
+            "tagTitle": "básicos",
+            "text": "básicos"
+        }
+    }
+   // "blocks": ["vtex.menu@2.x:submenu#lancamentos"]
+}
+}

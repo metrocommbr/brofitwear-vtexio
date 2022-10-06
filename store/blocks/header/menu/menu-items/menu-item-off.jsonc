@@ -1,0 +1,19 @@
+{
+  "menu-item#off": {
+    "props": {
+        "id": "menu-item-off",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/off",
+            "noFollow": true,
+            "tagTitle": "off",
+            "text": "off"
+        }
+    }
+   // "blocks": ["vtex.menu@2.x:submenu#lancamentos"]
+}
+
+}

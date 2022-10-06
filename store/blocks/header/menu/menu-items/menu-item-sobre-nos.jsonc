@@ -1,0 +1,115 @@
+{
+  "menu-item#sobre-nos": {
+    "props": {
+        "id": "menu-item-custom-sale",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/sobre-nos",
+            "noFollow": true,
+            "tagTitle": "sobre nós",
+            "text": "sobre nós"
+        }
+    },
+   "blocks": ["vtex.menu@2.x:submenu#sobre-nos"]
+},
+
+"vtex.menu@2.x:submenu#sobre-nos": {
+  "props": {
+    "width": "100%"
+  },
+  "children": ["flex-layout.row#menu-sobre-nos"]
+},
+"flex-layout.row#menu-sobre-nos": {
+  "children": [
+    "flex-layout.col#menu-sobre-nos",
+    "flex-layout.row#menu-items-sobre-nos"
+  ],
+  "props": {
+    "blockClass": "row-menu-items"
+  }
+},
+
+"flex-layout.col#menu-sobre-nos": {
+  "children": ["image#banner-sub-sobre-nos"]
+},
+
+"image#banner-sub-sobre-nos": {
+  "props": {
+    "src": "/arquivos/image-menu.png",
+    "blockClass": "image-menu"
+  }
+},
+
+"flex-layout.row#menu-items-sobre-nos": {
+  "children": [
+    "flex-layout.col#menu-sobre-nos-01"
+  ],
+  "props": {
+    "blockClass": ["menu-items", "items-menu"]
+  }
+},
+"flex-layout.col#menu-sobre-nos-01": {
+  "children": ["vtex.menu@2.x:menu#sobre-nos"]
+},
+"vtex.menu@2.x:menu#sobre-nos": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass": "header-menu"
+  },
+  "children": [
+    "menu-item#quem-somos",
+    "menu-item#sustentabilidade",
+    "menu-item#tecnologias"
+  ]
+},
+"menu-item#quem-somos": {
+  "props": {
+    "id": "menu-item-quem-somos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/quem-somos",
+      "noFollow": true,
+      "tagTitle": "quem somos",
+      "text": "quem somos"
+    }
+  }
+},
+"menu-item#sustentabilidade": {
+  "props": {
+    "id": "menu-item-sustentabilidade",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/sustentabilidade",
+      "noFollow": true,
+      "tagTitle": "sustentabilidade",
+      "text": "sustentabilidade"
+    }
+  }
+},
+
+"menu-item#tecnologias": {
+  "props": {
+    "id": "menu-item-tecnologias",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/tecnologias",
+      "noFollow": true,
+      "tagTitle": "tecnologias",
+      "text": "tecnologias"
+    }
+  }
+}
+
+}

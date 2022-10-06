@@ -1,0 +1,162 @@
+{
+  "menu-item#categorias": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Categorias",
+        "text": "Categorias"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#categorias"]
+  },
+  "vtex.menu@2.x:submenu#categorias": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#menu-categorias"]
+  },
+  "flex-layout.row#menu-categorias": {
+    "children": [
+      "flex-layout.col#menu-categorias-1",
+      "flex-layout.row#menu-items-categorias"
+    ],
+    "props": {
+      "blockClass": "row-menu-items"
+    }
+  },
+
+  "flex-layout.col#menu-categorias-1": {
+    "children": ["image#banner-sub-categorias"]
+  },
+
+  "image#banner-sub-categorias": {
+    "props": {
+      "src": "/arquivos/image-menu.png",
+      "blockClass": "image-menu"
+    }
+  },
+
+  "flex-layout.row#menu-items-categorias": {
+    "children": [
+      "flex-layout.col#menu-categorias-01"
+    ],
+    "props": {
+      "blockClass": ["menu-items", "items-menu"]
+    }
+  },
+  "flex-layout.col#menu-categorias-01": {
+    "children": ["vtex.menu@2.x:menu#categorias"]
+  },
+  "vtex.menu@2.x:menu#categorias": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "header-menu"
+    },
+    "children": [
+      "menu-item#leggings-e-calcas",
+      "menu-item#tops-e-croppeds",
+      "menu-item#blusas-e-regatas",
+      "menu-item#saias-e-shorts",
+      "menu-item#bodies-e-vestidos",
+      "menu-item#macacoes"
+    ]
+  },
+
+  "menu-item#leggings-e-calcas": {
+    "props": {
+      "id": "menu-item-eco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorias/leggings-e-calcas",
+        "noFollow": true,
+        "tagTitle": "LEGGINGS E CALÇAS",
+        "text": "LEGGINGS E CALÇAS"
+      }
+    }
+  },
+  "menu-item#tops-e-croppeds": {
+    "props": {
+      "id": "menu-item-tops-e-croppeds",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorias/tops-e-croppeds",
+        "noFollow": true,
+        "tagTitle": "tops e croppeds",
+        "text": "tops e croppeds"
+      }
+    }
+  },
+
+  "menu-item#blusas-e-regatas": {
+    "props": {
+      "id": "menu-item-blusas-e-regatas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorias/blusas-e-regatas",
+        "noFollow": true,
+        "tagTitle": "blusas e regatas",
+        "text": "blusas e regatas"
+      }
+    }
+  },
+  "menu-item#saias-e-shorts": {
+    "props": {
+      "id": "menu-item-saias-e-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorias/saias-e-shorts",
+        "noFollow": true,
+        "tagTitle": "saias e shorts",
+        "text": "saias e shorts"
+      }
+    }
+  },
+  "menu-item#bodies-e-vestidos": {
+    "props": {
+      "id": "menu-item-bodies-e-vestidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorias/bodies-e-vestidos",
+        "noFollow": true,
+        "tagTitle": "bodies e vestidos",
+        "text": "bodies e vestidos"
+      }
+    }
+  },
+  "menu-item#macacoes": {
+    "props": {
+      "id": "menu-item-macacoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorias/macacoes",
+        "noFollow": true,
+        "tagTitle": "macacoes",
+        "text": "macacoes"
+      }
+    }
+  }
+}

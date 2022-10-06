@@ -1,0 +1,18 @@
+{
+  "menu-item#conjuntos": {
+    "props": {
+        "id": "menu-item-custom-sale",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/conjuntos",
+            "noFollow": true,
+            "tagTitle": "conjuntos",
+            "text": "conjuntos"
+        }
+    }
+   // "blocks": ["vtex.menu@2.x:submenu#lancamentos"]
+}
+}
