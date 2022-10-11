@@ -16,3 +16,31 @@
 .flexRowContent--items-menu{
   gap: 70px;
 }
+
+.flexRowContent--header-mobile{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.flexRowContent--header-mobile :global(.vtex-store-drawer-0-x-openIconContainer){
+  padding: 0px;
+}
+.flexRowContent--row-2-footer-mobile{
+  padding: 0 25px;
+}
+
+
+.flexRowContent--row-2-footer-mobile :global(.vtex-menu-2-x-styledLinkContainer){
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 20px 0px;
+}
+.flexRowContent--row-2-footer-mobile :global(.vtex-menu-2-x-styledLinkContainer) :first-child{
+  font-weight:600;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  line-height: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #000;
+}

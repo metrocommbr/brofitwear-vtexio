@@ -1,9 +1,15 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header-layout.desktop": {
     "children": [
@@ -13,18 +19,21 @@
     ]
   },
   "flex-layout.row#0-desktop": {
-    "children": ["slider-layout#text-test"],
+    "children": [
+      "slider-layout#text-test"
+    ],
     "props": {
       "fullWidth": true
     }
   },
   "flex-layout.row#1-desktop": {
-    "children": ["telemarketing"],
+    "children": [
+      "telemarketing"
+    ],
     "props": {
       "fullWidth": true
     }
   },
-
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -48,7 +57,9 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#4-desktop"]
+    "children": [
+      "flex-layout.row#4-desktop"
+    ]
   },
   "flex-layout.row#4-desktop": {
     "props": {
@@ -72,52 +83,53 @@
       "login"
     ],
     "props": {
-      "blockClass": ["icons-header-desktop"]
+      "blockClass": [
+        "icons-header-desktop"
+      ]
     }
   },
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo#desktop"]
+    "children": [
+      "logo#desktop"
+    ]
   },
   "flex-layout.col#category-menu": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
   },
-  "logo#desktop": {
+
+  "flex-layout.row#breadcrumb": {
+    "children": [
+      "breadcrumb.search"
+    ],
     "props": {
-      "title": "Brofitwear",
-      "href": "/",
-      "url": "https://brofitwear.vteximg.com.br/arquivos/logo-desktop-bg-back.svg",
-      "width": "168",
-      "height": "39"
+      "blockClass": "breadcrumb-container"
     }
   },
-  "flex-layout.row#breadcrumb": {
-		"children": [
-			"breadcrumb.search"
-		],
-		"props": {
-			"blockClass": "breadcrumb-container"
-		}
-	},
+
+  // MOBILE =====
+
   "header-layout.mobile": {
-    "children": ["sticky-layout#1-mobile"]
+    "children": [
+      "sticky-layout#1-mobile"
+    ]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
+    "children": [
+      "flex-layout.row#1-mobile"
+    ]
   },
   "flex-layout.row#1-mobile": {
     "children": [
       "logo#mobile",
-      "flex-layout.col#spacer",
-      "flex-layout.row#custom-search",
-      "minicart.v2",
-      "login",
-      "drawer"
+      "flex-layout.row#header-mobile"
     ],
     "props": {
       "blockClass": "main-header-mobile",
@@ -126,34 +138,81 @@
       "fullWidth": true
     }
   },
-  "flex-layout.row#custom-search": {
-    "children":["search-bar"]
-  },
-  "search-bar": {
+  "flex-layout.row#header-mobile": {
+    "children": [
+      "drawer#search",
+      "minicart.v2",
+      "login",
+      "drawer"
+    ],
     "props": {
-      "condition": true
+      "blockClass": [
+        "header-mobile"
+      ]
     }
   },
+  "drawer#search":{
+    "children": [
+      "search-bar"
+    ],
+    "props":{
+      "slideDirection": "horizontal",
+      "isFullWidth": true,
+      "blockClass": "search-bar-header"
+    }
+  },
+
+  "search-bar": {
+    "props": {
+      "condition": true,
+      "placeholder": "Digite aqui o que você procura"
+
+    },
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ]
+  },
+
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "maxSuggestedProducts": 2,
+      "maxTopSearches": 10,
+      "maxHistory": 5,
+      "autocompleteWidth": 90
+    }
+  },
+
+
   "drawer": {
-    "children": ["menu#drawer"]
+    "children": [
+      "menu#drawer"
+    ],
+    "blocks":[
+      "drawer-header#my-drawer"
+    ],
+    "props": {
+      "slideDirection": "rightToLeft",
+      "isFullWidth": true,
+      "blockClass": "menu-mobile"
+    }
+  },
+  "drawer-header#my-drawer": {
+    "children": [
+      "drawer-close-button"
+    ]
   },
 
   "menu#drawer": {
     "children": [
-      "menu-item#lancamentos"
+      "flex-layout.row#2-footer-mobile"
     ],
     "props": {
       "orientation": "vertical"
     }
-  },
-
-  "logo#mobile": {
-    "props": {
-      "title": "Brofitwear",
-      "href": "/",
-      "url": "https://brofitwear.vtexassets.com/arquivos/logo-desktop-bg-back.svg",
-      "width": "168",
-      "height": "39"
-    }
   }
+
+
 }

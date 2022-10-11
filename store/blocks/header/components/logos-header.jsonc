@@ -1,0 +1,21 @@
+{
+  "logo#desktop": {
+    "props": {
+      "title": "Brofitwear",
+      "href": "/",
+      "url": "https://brofitwear.vteximg.com.br/arquivos/logo-desktop-bg-back.svg",
+      "width": "168",
+      "height": "39"
+    }
+  },
+  
+  "logo#mobile": {
+    "props": {
+      "title": "Brofitwear",
+      "href": "/",
+      "url": "https://brofitwear.vtexassets.com/arquivos/logo-desktop-bg-back.svg",
+      "width": "168",
+      "height": "39"
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "menu-item#lancamentos-mobile": {
+    "props": {
+        "blockClass": "menu-items-footer",
+        "id": "menu-item-institucional",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "iconProps": {
+            "id": "nav-caret--down",
+            "size": 12,
+            "activeClassName": "black"
+        },
+        "itemProps": {
+            "type": "internal",
+            "href": "",
+            "noFollow": true,
+            "iconPosition": "right",
+            "tagTitle": "Lançamentos",
+            "text": "Lançamentos"
+        }
+    },
+    "blocks": [
+        "vtex.menu@2.x:submenu.accordion#lancamentos"
+    ]
+},
+"vtex.menu@2.x:submenu.accordion#lancamentos": {
+    "title":"Submenu lancamentos",
+    "props": {
+        "blockClass": "sub-menu-accordion-mobile"
+    },
+    "children": [
+        "vtex.menu@2.x:menu#lancamentos-accordion"
+    ]
+},
+"vtex.menu@2.x:menu#lancamentos-accordion": {
+    "title": "Menu lancamentos",
+    "props": {
+        "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#lancamentos",
+      "vtex.menu@2.x:menu#lancamentos2",
+      "vtex.menu@2.x:menu#lancamentos3"
+    ]
+},
+
+
+"menu-item#categorias-mobile": {
+  "props": {
+      "blockClass": "menu-items-footer",
+      "id": "menu-item-institucional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "iconProps": {
+          "id": "nav-caret--down",
+          "size": 12,
+          "activeClassName": "black"
+      },
+      "itemProps": {
+          "type": "internal",
+          "href": "",
+          "noFollow": true,
+          "iconPosition": "right",
+          "tagTitle": "Categorias",
+          "text": "Categorias"
+      }
+  },
+  "blocks": [
+      "vtex.menu@2.x:submenu.accordion#categorias"
+  ]
+},
+"vtex.menu@2.x:submenu.accordion#categorias": {
+  "title":"Submenu categorias",
+  "props": {
+      "blockClass": "sub-menu-accordion-mobile"
+  },
+  "children": [
+      "vtex.menu@2.x:menu#categorias-accordion"
+  ]
+},
+"vtex.menu@2.x:menu#categorias-accordion": {
+  "title": "Menu categorias",
+  "props": {
+      "orientation": "vertical"
+  },
+  "children": [
+    "vtex.menu@2.x:menu#categorias"
+  ]
+},
+//
+
+"menu-item#sobre-nos-mobile": {
+  "props": {
+      "blockClass": "menu-items-footer",
+      "id": "menu-item-institucional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "iconProps": {
+          "id": "nav-caret--down",
+          "size": 12,
+          "activeClassName": "black"
+      },
+      "itemProps": {
+          "type": "internal",
+          "href": "",
+          "noFollow": true,
+          "iconPosition": "right",
+          "tagTitle": "sobre-nos",
+          "text": "sobre-nos"
+      }
+  },
+  "blocks": [
+      "vtex.menu@2.x:submenu.accordion#sobre-nos"
+  ]
+},
+"vtex.menu@2.x:submenu.accordion#sobre-nos": {
+  "title":"Submenu sobre-nos",
+  "props": {
+      "blockClass": "sub-menu-accordion-mobile"
+  },
+  "children": [
+      "vtex.menu@2.x:menu#sobre-nos-accordion"
+  ]
+},
+"vtex.menu@2.x:menu#sobre-nos-accordion": {
+  "title": "Menu categorias",
+  "props": {
+      "orientation": "vertical"
+  },
+  "children": [
+    "vtex.menu@2.x:menu#sobre-nos"
+  ]
+}
+}

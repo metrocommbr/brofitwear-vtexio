@@ -1,0 +1,22 @@
+{
+  "flex-layout.row#2-footer-mobile":{
+    "props":{
+      "blockClass":"row-2-footer-mobile"
+    },
+    "children":["vtex.menu@2.x:menu#footer-mobile"]
+  },
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children":[
+      "menu-item#lancamentos-mobile",
+      "menu-item#categorias-mobile",
+      "menu-item#sobre-nos-mobile",
+      "menu-item#basicos",
+      "menu-item#kits",
+      "menu-item#off"
+    ]
+  }
+
+}

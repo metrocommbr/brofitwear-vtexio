@@ -129,7 +129,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 50px;
 }
 
 .vtex-sticky-layout-0-x-wrapper--stuck:not(:hover) .vtex-flex-layout-0-x-flexRowContent--main-header,

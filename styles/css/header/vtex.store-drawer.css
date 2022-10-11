@@ -1,0 +1,48 @@
+.drawerContent--menu-mobile .closeIcon{
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21.414' height='21.414' viewBox='0 0 21.414 21.414'%3E%3Cg id='Close' transform='translate(0.707 0.707)'%3E%3Cline id='Linha_18' data-name='Linha 18' x2='28.284' transform='translate(0 0) rotate(45)' fill='none' stroke='%230e0a0f' stroke-width='2'/%3E%3Cline id='Linha_19' data-name='Linha 19' x2='28.284' transform='translate(0 20) rotate(-45)' fill='none' stroke='%230e0a0f' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+}
+.drawerContent--menu-mobile .closeIcon :first-child{
+  display: none;
+}
+
+.drawerContent--menu-mobile .drawerHeader{
+  justify-content: flex-end;
+}
+.drawerContent--menu-mobile .drawerHeader .closeIconButton{
+  padding: 20px 25px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-items-footer){
+  display: none;
+}
+.childrenContainer--menu-mobile :global(.vtex-menu-2-x-menuContainerNav) {
+  width: 100%;
+}
+
+.childrenContainer--menu-mobile :global(.vtex-menu-2-x-menuItem){
+  border-bottom: 1px solid #c3c3c3;
+
+}
+
+
+.opened--search-bar-header{
+  height: fit-content;
+  top: 60px;
+}
+.closeIconContainer--search-bar-header{
+  display: none;
+}
+.childrenContainer--search-bar-header :global(.vtex-store-components-3-x-searchBarContainer){
+  padding: 35px 20px;
+
+}
+.childrenContainer--search-bar-header :global(.vtex-store-components-3-x-resultsList){
+  display: none;
+}
+.overlay--search-bar-header{
+  opacity: 1 !important;
+  background: transparent;
+}

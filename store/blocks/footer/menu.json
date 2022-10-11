@@ -315,16 +315,7 @@
     ]
   },
 
-  "vtex.menu@2.x:menu#footer-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
-    ]
-  },
+
 
   "menu-item#clothing-mobile": {
     "props": {
