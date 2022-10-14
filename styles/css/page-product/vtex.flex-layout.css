@@ -89,4 +89,9 @@
     max-width: 96rem;
 
   }
+
+  .flexRow--product-description .stretchChildrenWidth{
+    justify-content: flex-start;
+    max-width: 720px;
+  }
 }

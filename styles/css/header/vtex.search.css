@@ -3,3 +3,10 @@
 
   top: -60px;
 }
+
+
+@media(min-width: 1025px){
+.biggy-autocomplete-wrapper{
+  max-width: 1240px;
+}
+}

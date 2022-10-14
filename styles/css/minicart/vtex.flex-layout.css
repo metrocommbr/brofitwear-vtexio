@@ -173,8 +173,11 @@
 
 .flexRowContent--icons-header-desktop{
   justify-content: space-between;
+  align-items: center;
   gap: 25px;
 }
 .flexRowContent--icons-header-desktop .stretchChildrenWidth{
   width: fit-content !important;
 }
+
+

@@ -38,3 +38,14 @@
     min-height: 45px;
 }
 
+
+
+@media(min-width: 1025px){
+  .containerNormal{
+    max-width: 100% !important;
+  }
+
+  .imageContainer--shelf-image{
+    width: 100%;
+  }
+}

@@ -7,11 +7,11 @@
       "menu-item#home",
       "menu-item#lancamentos-footer",
       "menu-item#basicos",
-      "menu-item#categorias",
+      "menu-item#categorias-footer",
       "menu-item#kits",
       "menu-item#off",
       "menu-item#conjuntos",
-      "menu-item#sobre-nos",
+      "menu-item#sobre-nos-footer",
       "menu-item#politica-de-privacidade",
       "menu-item#ouvidoria",
       "menu-item#lgpd"
@@ -40,7 +40,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/lancamentos",
         "noFollow": false,
         "tagTitle": "Lançamentos",
         "text": "Lançamentos"
@@ -62,7 +62,7 @@
       }
     }
   },
-  "menu-item#categorias": {
+  "menu-item#categorias-footer": {
     "props": {
       "id": "menu-item-news",
       "type": "custom",
@@ -70,7 +70,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/categorias",
         "noFollow": false,
         "tagTitle": "Categorias",
         "text": "Categorias"
@@ -122,7 +122,7 @@
       }
     }
   },
-  "menu-item#sobre-nos": {
+  "menu-item#sobre-nos-footer": {
     "props": {
       "id": "menu-item-news",
       "type": "custom",

@@ -78,7 +78,7 @@
   },
   "flex-layout.row#icons-header-desktop": {
     "children": [
-      "search-bar",
+      "drawer#search",
       "minicart.v2",
       "login"
     ],
@@ -165,7 +165,9 @@
   "search-bar": {
     "props": {
       "condition": true,
-      "placeholder": "Digite aqui o que você procura"
+      "openAutocompleteOnFocus": true,
+      "displayMode": "search-button",
+      "placeholder": "Digite aqui O que você está procurando"
 
     },
     "blocks": [
@@ -178,7 +180,7 @@
       "product-summary.shelf"
     ],
     "props": {
-      "maxSuggestedProducts": 2,
+      "maxSuggestedProducts": 3,
       "maxTopSearches": 10,
       "maxHistory": 5,
       "autocompleteWidth": 90

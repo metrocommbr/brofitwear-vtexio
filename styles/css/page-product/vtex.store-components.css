@@ -101,3 +101,42 @@
 .productDescriptionText .container{
   padding: 0px;
 }
+
+.shippingTableRadioBtn{
+  display: none;
+}
+
+.shippingTableLabel{
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  line-height: 18px;
+  text-align: left;
+  color: #0d0b0f;
+}
+.shippingTableCellDeliveryPrice,
+.shippingTableCellDeliveryEstimate{
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  line-height: 18px;
+  text-align: left;
+  color: #a3a3a3;
+}
+
+.shippingTableRow{
+  display: flex;
+  flex-direction: column;
+}
+
+.shippingTableRow{
+  border-bottom: 1px solid #c3c3c3;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+@media(min-width: 1024px){
+  .productImageTag--main{
+    max-height: unset !important;
+  }
+}
